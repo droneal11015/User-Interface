@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+  margin: 0 auto;
+  width: 876px;
+}
+.navigation {
+	display: inline-block;
+  position:fixed;
+  background-color: white;
+}
+.navigation a{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+
+}
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	padding: 7px;
+	margin-left: 49px;
+}
+.header h1{
+	display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    width: 49.5%;
+    padding: 116px;
+    vertical-align: top;
+}
+header{
+  margin:20px;
+}
+.headerImage {
+	display: inline-block;
+	width: 49.5%;
+	padding: 50px;
+}
+button{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.divider{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.top1{
+	width: 49.5%;
+	display: inline-block;
+	padding: 30px;
+	vertical-align: top;
+}
+.top2{
+	width: 49.5%;
+	display: inline-block;
+	padding: 33px;
+	vertical-align: top;
+}
+.bottom1{
+	display:inline-block;
+	width:33%;
+	padding: 30px;
+	vertical-align: top;
+}
+.bottom2{
+	display:inline-block;
+	width:33%;
+	padding: 30px;
+	vertical-align: top;
+}
+.bottom3{
+	
+	display:inline-block;
+	width:30%;
+	padding: 30px;
+	vertical-align: top;
+}
+.contact {
+	padding-top:50px;
+}
+.contact p{
+	padding:10px 0px 10px 0px;
+}
+.copyright{
+	display:block;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+}
